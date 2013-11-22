@@ -170,6 +170,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Triplet.c"
+				>
+			</File>
+			<File
 				RelativePath=".\Unit_Testing.c"
 				>
 			</File>
@@ -180,7 +184,11 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\Abstract_Data_Type.h"
+				RelativePath=".\pre_definition.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Triplet.h"
 				>
 			</File>
 			<File
@@ -194,6 +202,10 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
+		<File
+			RelativePath=".\&#25277;&#35937;&#25976;&#25818;&#39006;&#22411;&#25551;&#36848;.txt"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
