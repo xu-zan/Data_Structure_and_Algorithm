@@ -169,6 +169,10 @@
 				RelativePath=".\Main.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\Testing_SeqList.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="&#22836;&#25991;&#20214;"
@@ -181,6 +185,10 @@
 			</File>
 			<File
 				RelativePath=".\pre_definition.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Testing_SeqList.h"
 				>
 			</File>
 		</Filter>
