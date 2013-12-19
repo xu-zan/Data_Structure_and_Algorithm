@@ -184,7 +184,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\pre_definition.h"
+				RelativePath="..\pre_definition.h"
 				>
 			</File>
 			<File
