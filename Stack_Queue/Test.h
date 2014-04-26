@@ -10,5 +10,6 @@
 #ifndef TEST_H
 #define TEST_H
 
+    void Universal_Test_Case(void);
 
 #endif  /*  TEST_H  */
