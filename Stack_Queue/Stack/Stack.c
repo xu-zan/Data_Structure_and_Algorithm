@@ -7,6 +7,7 @@
  *
  ******************************************************************************************************/
 
+#include <stdlib.h>
 
 #include "Stack.h"
 
@@ -14,7 +15,14 @@ Status InitSqStack(PtrSqStack pStack)
 /* Create an empty stack
  */
 {
-    int iStatus = 0;
+    pStack->base = (SElemType *)malloc(STACK_INIT_SZIE * sizeof(SElemType));
+    if (!(pStack->base))
+    {
+        exit(OVERFLOW);
+    }
 
-    return iStatus;
+    pStack->top = pStack->base;
+    pStack->stacksize = STACK_INIT_SZIE;
+
+    return OK;
 }
