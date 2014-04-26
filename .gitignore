@@ -1,0 +1,5 @@
+# The below types of files will be ingored the tracking by git :
+
+*.o
+*.user
+*Stack_Queue
