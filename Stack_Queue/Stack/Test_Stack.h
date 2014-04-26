@@ -10,5 +10,8 @@
 #ifndef TEST_STACK_H
 #define TEST_STACK_H
 
+    void Test_Case_For_Stack(void);
+
+    void TestCase_Create_Stack(void);
 
 #endif  /*  TEST_STACK_H  */
