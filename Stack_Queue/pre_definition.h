@@ -13,6 +13,8 @@
     #define OK       0
     #define ERROR   !0
 
+    #define OVERFLOW    -1
+
     typedef int SElemType;
     typedef int Status;
 
