@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
 {
 	printf("This project will study the 'Stack_Queue' data structure.\n");
 
+    Universal_Test_Case();
 /******************************/
 	printf("\n");
 	return 0;
