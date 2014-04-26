@@ -6,7 +6,7 @@
  * Description		: This file will implement the main() entry function for this project.
  * Creator			: XU ZAN
  * Creation date	: Thur.	April 24, 2014
- * Copyright(C) 		2014	All rights reserved.
+ * Copyright(C) 	2014	All rights reserved.
  ****************************************************************************************************************/
 
 #include <stdio.h>
