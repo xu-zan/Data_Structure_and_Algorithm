@@ -8,3 +8,9 @@
  ****************************************************************************/
 
 #include "Test.h"
+#include "Stack/Test_Stack.h"
+
+void Universal_Test_Case(void)
+{
+    Test_Case_For_Stack();
+}
