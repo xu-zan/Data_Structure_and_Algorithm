@@ -2,11 +2,14 @@
 *.o
 *.obj
 *.exe
+*.suo
 *.ilk
 *.pdb
 *.html
 *.manifest
 *.dep
 *.idb
-
+*.ncb
+*.htm
+*.xcuserstate
 
