@@ -1,0 +1,12 @@
+# The below types of files will be ignored by git tracking :
+*.o
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.html
+*.manifest
+*.dep
+*.idb
+
+
