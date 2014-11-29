@@ -19,6 +19,7 @@
 *.obj
 *.elf
 
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -28,6 +29,9 @@
 *.a
 *.la
 *.lo
+# Libraries
+*.lib
+*.a
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -42,7 +46,6 @@
 *.i*86
 *.x86_64
 *.hex
-
 
 
 
