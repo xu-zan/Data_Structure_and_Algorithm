@@ -1,5 +1,7 @@
 # The below types of files will be ingored the tracking by git :
-
+*.d
 *.o
 *.user
-*Stack_Queue
+*build*
+/String/dist/
+/String/build/
