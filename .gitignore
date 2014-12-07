@@ -5,3 +5,53 @@
 *build*
 /String/dist/
 /String/build/
+
+*.o
+*.obj
+*.exe
+*.suo
+*.ilk
+*.pdb
+*.html
+*.manifest
+*.dep
+*.idb
+*.ncb
+*.htm
+*.xcuserstate
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+
