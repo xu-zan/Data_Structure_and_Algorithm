@@ -18,14 +18,14 @@
 
 void Test_Case(void)
 {
-	Test_Linear_Link_List();
+	// Test_Linear_Link_List();
 
 	// TestCase_DualLinkNode();
 
 	// Test_Case_Fibonacci_Progression();
 	// Test_Case_DoubleArrayExport();
 
-	// Test_Link_Node();
+	Test_Link_Node();
 }
 
 void Test_Case_Fibonacci_Progression(void)
@@ -35,7 +35,8 @@ void Test_Case_Fibonacci_Progression(void)
 
 void Test_Case_DoubleArrayExport(void)
 {
-	Test_ReferenceOutputDoubleArray();
+	// Test_ReferenceOutputDoubleArray();
+	Test_Self_Increment_Decrement();
 }
 
 void Test_Linear_Link_List(void)
@@ -57,4 +58,7 @@ void Test_Circular_Link_List(void)
 
 void Test_Link_Node(void)
 {
+	TestCase_Link_List();
+
+	// TestCase_Link_Node();
 }
