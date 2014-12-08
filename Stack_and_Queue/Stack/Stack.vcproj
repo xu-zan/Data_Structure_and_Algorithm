@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="Abstract_Data_Type"
-	ProjectGUID="{7A457C61-4D9A-4F9F-B7F6-70E16EC50FEA}"
-	RootNamespace="Abstract_Data_Type"
+	Name="Stack"
+	ProjectGUID="{B4DC25C0-CB94-48DC-8124-C39244421F02}"
+	RootNamespace="Stack"
 	TargetFrameworkVersion="196613"
 	>
 	<Platforms>
@@ -162,19 +162,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\Abstract_Data_Type.c"
+				RelativePath=".\Application.c"
 				>
 			</File>
 			<File
-				RelativePath=".\Main.c"
+				RelativePath=".\Stack_Main.c"
 				>
 			</File>
 			<File
-				RelativePath=".\Triplet.c"
-				>
-			</File>
-			<File
-				RelativePath=".\Unit_Testing.c"
+				RelativePath=".\Test.c"
 				>
 			</File>
 		</Filter>
@@ -184,15 +180,15 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\pre_definition.h"
+				RelativePath=".\Application.h"
 				>
 			</File>
 			<File
-				RelativePath=".\Triplet.h"
+				RelativePath=".\general.h"
 				>
 			</File>
 			<File
-				RelativePath=".\Unit_Testing.h"
+				RelativePath=".\Test.h"
 				>
 			</File>
 		</Filter>
@@ -202,10 +198,50 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
-		<File
-			RelativePath=".\&#25277;&#35937;&#25976;&#25818;&#39006;&#22411;&#25551;&#36848;.txt"
+		<Filter
+			Name="Stack_structure"
 			>
-		</File>
+			<File
+				RelativePath=".\Stack_structure\Maze.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Maze.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Recursion.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Recursion.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Stack.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Stack.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Stack_Application.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Stack_Application.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Test_Stack.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Stack_structure\Test_Stack.h"
+				>
+			</File>
+		</Filter>
 	</Files>
 	<Globals>
 	</Globals>

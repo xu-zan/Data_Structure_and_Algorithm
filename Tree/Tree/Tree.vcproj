@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="Abstract_Data_Type"
-	ProjectGUID="{7A457C61-4D9A-4F9F-B7F6-70E16EC50FEA}"
-	RootNamespace="Abstract_Data_Type"
+	Name="Tree"
+	ProjectGUID="{B68D578D-CDC9-4DB6-BDAB-2F6B4B5A5436}"
+	RootNamespace="Tree"
 	TargetFrameworkVersion="196613"
 	>
 	<Platforms>
@@ -161,40 +161,12 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-			<File
-				RelativePath=".\Abstract_Data_Type.c"
-				>
-			</File>
-			<File
-				RelativePath=".\Main.c"
-				>
-			</File>
-			<File
-				RelativePath=".\Triplet.c"
-				>
-			</File>
-			<File
-				RelativePath=".\Unit_Testing.c"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="&#22836;&#25991;&#20214;"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-			<File
-				RelativePath=".\pre_definition.h"
-				>
-			</File>
-			<File
-				RelativePath=".\Triplet.h"
-				>
-			</File>
-			<File
-				RelativePath=".\Unit_Testing.h"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="&#36164;&#28304;&#25991;&#20214;"
@@ -202,10 +174,6 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
-		<File
-			RelativePath=".\&#25277;&#35937;&#25976;&#25818;&#39006;&#22411;&#25551;&#36848;.txt"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>
