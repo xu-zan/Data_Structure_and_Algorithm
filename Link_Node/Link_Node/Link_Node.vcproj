@@ -364,6 +364,18 @@
 					RelativePath=".\Linear_Link_List\Test_Link_Node.h"
 					>
 				</File>
+				<Filter
+					Name="Polynomial"
+					>
+					<File
+						RelativePath=".\Linear_Link_List\Polynomial\Polynomial.c"
+						>
+					</File>
+					<File
+						RelativePath=".\Linear_Link_List\Polynomial\Polynomial.h"
+						>
+					</File>
+				</Filter>
 			</Filter>
 		</Filter>
 		<Filter
