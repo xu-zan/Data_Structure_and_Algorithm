@@ -20,7 +20,7 @@
 	// Structures
 	typedef struct LNode
 	{
-		ElemType data;
+		int data;
 		struct LNode *next;
 	}
 	LNode, *PtrLinkList;
