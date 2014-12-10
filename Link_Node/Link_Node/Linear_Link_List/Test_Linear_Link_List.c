@@ -62,3 +62,27 @@ void TestCase_MergeLinkNode(void)
 	// ListDestroy_LinkNode(&pLb);
 	ListDestroy_LinkNode(&pLc);
 }
+
+
+void TestCase_Merge2LinkNodes(void)
+{
+	PtrLinkList pLa = NULL, pLb = NULL, pLc = NULL;
+
+	ListCreate_LinkNode(&pLa, 5);
+	ListDisplay_LinkNode(pLa);
+	ListCreate_LinkNode(&pLb, 8);
+	ListDisplay_LinkNode(pLb);
+
+
+	ListMerge_2LinkNodes(&pLa, &pLb, &pLc);
+	printf("After merging step, the updated link nodes are : \n");
+	printf("Link node La :\n");
+	ListDisplay_LinkNode(pLa);
+	printf("Link node Lb :\n");
+	ListDisplay_LinkNode(pLb);
+	printf("Link node Lc :\n");
+	ListDisplay_LinkNode(pLc);
+
+	ListDestroy_LinkNode(&pLc);
+	return;
+}
