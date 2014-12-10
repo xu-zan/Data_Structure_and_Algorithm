@@ -264,3 +264,54 @@ void	ListMerge_LinkNode(PtrLinkList La, PtrLinkList Lb, PtrLinkList *Lc)
 	Lb = pHead_Lb;
 	return;
 }
+
+
+void ListMerge_2LinkNodes(PtrLinkList *La, PtrLinkList *Lb, PtrLinkList *Lc)
+/* 合并La和Lb两个链表得到链表Lc, 回传出链表Lc
+ * 同时摧毁La和Lb.
+ */
+{
+	PtrLinkList pNode_La = (*La)->next, pHead_La = *La,
+				pNode_Lb = (*Lb),		pHead_Lb = *Lb,
+				pNode_Lc = NULL,		pHead_Lc = NULL,
+				pTargetNode_Lc = NULL;
+
+	pNode_Lc = (*La);	// Assign La head node to Lc, as the head node
+	pHead_Lc = pNode_Lc;	// Stage the head node of Lc.
+	while (pNode_La && pNode_Lb)
+	{
+		if ((pNode_La->data) <= (pNode_Lb->data))
+		{
+			pNode_Lc->next = pNode_La;	// Assign La current node to Lc successor node.
+			pNode_Lc = pNode_Lc->next;	// Lc move to next node
+			pNode_La = pNode_La->next;	// La move to next node
+		}
+		else
+		{
+			pNode_Lc->next = pNode_Lb;	// Assign Lb current node to Lc successor node
+			pNode_Lc = pNode_Lc->next;	// Lc move to next node
+			pNode_Lb = pNode_Lb->next;	// Lb move to next node
+		}
+	}
+	pNode_Lc->next = pNode_La ? pNode_La : pNode_Lb;	// Append the remained nodes.
+	pNode_Lc = pHead_Lc;		// Restore the Lc head node.
+
+	/* Duplicate the pNode_LC, to obtain another link node
+	 */
+	ListDuplicate_LinkList(pNode_Lc, &pTargetNode_Lc);
+	*Lc = pTargetNode_Lc;	// At last output(assign) pTargetNode_Lc to (*Lc) argument.
+
+	/* Destroy intermediate Lc(namely pNode_Lc) and argument *La, *Lb
+	 */
+	ListDestroy_LinkNode(&pNode_Lc);	// In fact, destroying pNode_Lc means that both Lb and La had been destroyed simultaneously.
+	
+	/* Notice : 
+	 * After destroying pNode_Lc, pNode_Lc has become an arbitrary pointer.
+	 * You must set it as a NULL pointer.
+	 */
+	pNode_Lc = NULL;
+	*La = NULL;
+	*Lb = NULL;
+
+	return;
+}
