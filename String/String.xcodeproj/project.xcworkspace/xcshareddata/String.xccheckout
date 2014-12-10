@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F32AAD70-E4CC-4767-8CA0-53050598D4FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>String</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BEE4A53771A21FEB3EE1BCAE4554055D83FAF4A0</key>
+		<string>hse-ot-server1.cn.hella.com:xuza1/data_structure_and_algorithm.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>String/String.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BEE4A53771A21FEB3EE1BCAE4554055D83FAF4A0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>hse-ot-server1.cn.hella.com:xuza1/data_structure_and_algorithm.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BEE4A53771A21FEB3EE1BCAE4554055D83FAF4A0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEE4A53771A21FEB3EE1BCAE4554055D83FAF4A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Data_Structure_and_Algorithm</string>
+		</dict>
+	</array>
+</dict>
+</plist>

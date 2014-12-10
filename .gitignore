@@ -1,6 +1,7 @@
 # The below type of file will be ignored by git tracking :
 *.manifest
 *.htm
+*.html
 *.dep
 *.idb
 *.obj
@@ -9,3 +10,55 @@
 *.ilk
 *.ncb
 *.pdb
+*.d
+*.o
+*.user
+*build*
+*.DS_Store
+*.pdb
+*.suo
+*.xcuserstate
+
+
+/String/dist/
+/String/build/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+private.xml
+/.project
+
+
+/String/String/dist/
