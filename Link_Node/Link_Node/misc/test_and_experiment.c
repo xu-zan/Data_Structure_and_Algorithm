@@ -108,3 +108,31 @@ void Test_ReferenceOutputDoubleArray(void)
 
 
  */
+
+
+void Test_Self_Increment_Decrement(void)
+{
+	int iAdd = 0, iDeduct = 10;
+
+	printf("The original add number : iAdd = %d\n", iAdd);
+	iAdd++;
+	printf("After self-increment : iAdd++ = %d\n", iAdd);
+	iAdd = 0;
+	printf("Restore to origianl add number : iAdd = %d\n", iAdd);
+	++iAdd;
+	printf("After self-increment : ++iAdd = %d\n", iAdd);
+
+	printf("\n\n\n");
+
+	printf("The original deduct number : iDeduct = %d\n", iDeduct);
+	// iDeduct_Result = iDeduct--;
+	printf("After self-decrement : iDeduct-- = %d\n", iDeduct--);
+	iDeduct = 10;
+	printf("Restore to original deduct number : iDeduct = %d\n", iDeduct);
+	// iDeduct_Result = --iDeduct;
+	printf("After self-decrement : --iDeduct = %d\n", --iDeduct);
+
+	printf("\n\n\n");
+	return;
+
+}
