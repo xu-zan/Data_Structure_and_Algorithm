@@ -13,13 +13,19 @@
 #include "Fibonacci_Progression/Fibonacci_Progression_TestCase.h"
 #include "misc/test_and_experiment.h"
 #include "Linear_Link_List/Test_Linear_Link_List.h"
+#include "Circular_Link_List/Test_Dual_Link_Node.h"
+#include "Linear_Link_List/Test_Link_Node.h"
 
 void Test_Case(void)
 {
-	Test_Linear_Link_List();
+	// Test_Linear_Link_List();
+
+	// TestCase_DualLinkNode();
 
 	// Test_Case_Fibonacci_Progression();
 	// Test_Case_DoubleArrayExport();
+
+	Test_Link_Node();
 }
 
 void Test_Case_Fibonacci_Progression(void)
@@ -29,11 +35,31 @@ void Test_Case_Fibonacci_Progression(void)
 
 void Test_Case_DoubleArrayExport(void)
 {
-	Test_ReferenceOutputDoubleArray();
+	// Test_ReferenceOutputDoubleArray();
+	Test_Self_Increment_Decrement();
 }
 
 void Test_Linear_Link_List(void)
 {
 	// TestCase_LinearLinkNode();
-	TestCase_MergeLinkNode();
+
+	// TestCase_MergeLinkNode();
+
+	// TestCase_LinkNodeSort();
+
+	// TestCase_LinkNodeStatistics();
+	TestCase_Merge2LinkNodes();
+}
+
+void Test_Circular_Link_List(void)
+{
+	TestCase_DualLinkNode();
+}
+
+
+void Test_Link_Node(void)
+{
+	TestCase_Link_List();
+
+	// TestCase_Link_Node();
 }

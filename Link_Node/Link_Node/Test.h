@@ -17,4 +17,8 @@
 
 	void Test_Linear_Link_List(void);
 
+	void Test_Circular_Link_List(void);
+
+	void Test_Link_Node(void);
+
 #endif	/*  TEST_H  */

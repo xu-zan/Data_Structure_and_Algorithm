@@ -1,24 +1,27 @@
-# The below types of files will be ingored the tracking by git :
+# The below type of file will be ignored by git tracking :
+*.manifest
+*.htm
+*.html
+*.dep
+*.idb
+*.obj
+*.user
+*.exe
+*.ilk
+*.ncb
+*.pdb
 *.d
 *.o
 *.user
 *build*
+*.DS_Store
+*.pdb
+*.suo
+*.xcuserstate
+
+
 /String/dist/
 /String/build/
-
-*.o
-*.obj
-*.exe
-*.suo
-*.ilk
-*.pdb
-*.html
-*.manifest
-*.dep
-*.idb
-*.ncb
-*.htm
-*.xcuserstate
 
 # Object files
 *.o
@@ -53,5 +56,8 @@
 *.i*86
 *.x86_64
 *.hex
+
+private.xml
+/.project
 
 

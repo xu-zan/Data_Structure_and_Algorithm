@@ -14,4 +14,6 @@
 
 	void Test_ReferenceOutputDoubleArray(void);
 
+	void Test_Self_Increment_Decrement(void);
+
 #endif	/*  TEST_AND_EXPERIMENT_H  */
