@@ -3,6 +3,7 @@
 *.o
 *.user
 *build*
+*.DS_Store
 /String/dist/
 /String/build/
 private.xml
