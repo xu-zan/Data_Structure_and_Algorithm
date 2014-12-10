@@ -315,3 +315,30 @@ void ListMerge_2LinkNodes(PtrLinkList *La, PtrLinkList *Lb, PtrLinkList *Lc)
 
 	return;
 }
+
+
+/*********************************************************************************************************/
+void	ListDuplicate_LinkList(PtrLinkList pOriginalNode, PtrLinkList *pCopiedNode)
+{
+	PtrLinkList pNode = NULL, pHead = NULL;
+
+	pNode = (PtrLinkList)malloc(sizeof(LNode));
+	pHead = pNode;	// Stage the head-node's pointer.
+
+	pNode->data = pOriginalNode->data;
+	while (pOriginalNode != NULL)
+	{
+		pOriginalNode = pOriginalNode->next;
+		if (pOriginalNode == NULL)		// This if-judgement is used to prevent from moving to the next pointer of tail node.
+		{
+			break;
+		}
+		pNode->next = (PtrLinkList)calloc(1, sizeof(LNode));
+		pNode = pNode->next;
+		pNode->data = pOriginalNode->data;
+	}
+	pNode = pHead;	// Restore the head node
+	*pCopiedNode = pNode;
+	
+	return;
+}
