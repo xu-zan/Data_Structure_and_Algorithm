@@ -18,12 +18,12 @@
     #endif
         /* 串的堆分配存儲表示
          */
-        typedef struct
+        typedef struct HString
         {
             char *ch;       // 若串是非空串，則按串長分配存儲區, 否則ch為NULL.
             int length;     // 串長度
         }
-        HString;
+        HString, *PtrHString;
         
         /* 基本操作的函數原型說明 
          */
@@ -32,7 +32,7 @@
         int StrCompare(HString S, HString T);
         Status ClearString(HString *S);
         Status Concat(HString *T, HString S1, HString S2);
-        HString SubString(HString S, int pos, int len);
+        Status SubString(HString *sub, HString S, int pos, int len);
         Status StrInsert(HString *S, int pos, HString T);
         
         
