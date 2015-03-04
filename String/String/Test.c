@@ -8,8 +8,15 @@
  ************************************************************************************************/
 
 #include "Test.h"
+#include "String_Structure/Test_String.h"
 
 void General_Test_Cases(void)
 {
-    
+    Perform_TestCase4_HeapString();
+	return;
+}
+
+void Perform_TestCase4_HeapString(void)
+{
+	TestCase4_HeapString();
 }
