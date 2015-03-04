@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcproj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue", "Queue\Queue.vcproj", "{2A881503-EDEB-4CC3-94F1-C6045DEA061B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_and_Queue", "Stack_and_Queue\Stack_and_Queue.vcproj", "{14D57790-2AD6-432F-884F-AD36178853B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{2A881503-EDEB-4CC3-94F1-C6045DEA061B}.Debug|Win32.Build.0 = Debug|Win32
 		{2A881503-EDEB-4CC3-94F1-C6045DEA061B}.Release|Win32.ActiveCfg = Release|Win32
 		{2A881503-EDEB-4CC3-94F1-C6045DEA061B}.Release|Win32.Build.0 = Release|Win32
+		{14D57790-2AD6-432F-884F-AD36178853B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14D57790-2AD6-432F-884F-AD36178853B5}.Debug|Win32.Build.0 = Debug|Win32
+		{14D57790-2AD6-432F-884F-AD36178853B5}.Release|Win32.ActiveCfg = Release|Win32
+		{14D57790-2AD6-432F-884F-AD36178853B5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

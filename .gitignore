@@ -20,6 +20,7 @@
 *.xcuserstate
 *.xcworkspace
 *.xcuserdatad
+*.xccheckout
 
 /String/dist/
 /String/build/
