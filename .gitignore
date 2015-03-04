@@ -18,7 +18,9 @@
 *.pdb
 *.suo
 *.xcuserstate
-
+*.xcworkspace
+*.xcuserdatad
+*.xccheckout
 
 /String/dist/
 /String/build/
