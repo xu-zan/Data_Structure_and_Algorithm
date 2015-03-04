@@ -18,7 +18,8 @@
 *.pdb
 *.suo
 *.xcuserstate
-
+*.xccheckout
+*.xcuserdatad
 
 /String/dist/
 /String/build/
