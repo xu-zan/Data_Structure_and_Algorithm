@@ -13,7 +13,14 @@
     extern "C" 
     {
     #endif
-    #ifdef	__cplusplus
+	
+		void TestCase4_HeapString(void);
+		
+		void TestCase4_SequencialString(void);
+		
+		void TestCase4_LinkListString(void);
+		
+	#ifdef	__cplusplus
     }
     #endif
 

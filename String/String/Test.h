@@ -16,6 +16,8 @@
     #endif
 
         void General_Test_Cases(void);
+		
+		void Perform_TestCase4_HeapString(void);
         
     #ifdef	__cplusplus
     }

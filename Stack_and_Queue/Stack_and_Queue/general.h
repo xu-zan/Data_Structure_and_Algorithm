@@ -17,7 +17,7 @@
 	#define FALSE			0
 
 	#define OK				0
-	#define	ERROR			!0;
+	#define	ERROR			!0
 
 	#define INFEASIBLE		-1
 	#define OVERFLOW		-2
