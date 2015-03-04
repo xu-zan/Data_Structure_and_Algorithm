@@ -18,7 +18,8 @@
 *.pdb
 *.suo
 *.xcuserstate
-
+*.xcworkspace
+*.xcuserdatad
 
 /String/dist/
 /String/build/
